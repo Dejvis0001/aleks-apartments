@@ -300,6 +300,141 @@ ul.link_menu li a:hover {
 }
 /*Index-About*/
 /*Index-Rooms*/
+.index-rooms {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.index-rooms h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.index-rooms p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.rooms {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.room {
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.room-image {
+    width: 100%;
+    position: relative;
+}
+
+.room-img {
+    width: 100%;
+    height: auto;
+}
+
+.room-info {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room-info h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.room-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.icon-circle {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 2px solid #007BFF;
+    color: #007BFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-circle:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.icon-hover {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    top: -55px;
+    left: -55px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.icon-circle:hover .icon-hover {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: 1px solid #007BFF;
+}
+
+.icon i {
+    color: #007BFF;
+}
+
+.all-rooms-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.all-rooms-btn:hover {
+    background-color: #0056b3;
+}
 /*Index-Gallery*/
 .slider {
     background: #211C18;
