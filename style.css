@@ -570,7 +570,7 @@ font-size: 19px;}
 
 /*Counter*/
 .counter {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/image/3.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/image/13.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -618,7 +618,7 @@ font-size: 19px;}
 
 /*About Us*/
 #about-head {
-    background: url(assets/image/5.jpeg) rgba(0, 0, 0, 0.5);
+    background: url(assets/image/32.jpg) rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -644,7 +644,7 @@ html body main section.container div.row div.col-md-3 img.img-fluid{height: 100%
 
 /*Contact Us*/
 #contact-head {
-    background: url(assets/image/3.jpeg) rgba(0, 0, 0, 0.5);
+    background: url(assets/image/34.jpg) rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -832,7 +832,7 @@ html body main section.container div.row div.col-md-3 img.img-fluid{height: 100%
     }
 
     #btn-back-to-top,
-    .info-box,
+    .info-box,.rooms .tagline::before,
     .mySwiper .box-slider .content-box.style-2 .sub-title {
         display: none !important;
     }
@@ -871,5 +871,6 @@ html body main section.container div.row div.col-md-3 img.img-fluid{height: 100%
     .review-boxes {
         padding: 25px;
     }
+    .rooms{text-align:center;margin-top:30px;}
     html body main section div.container div.row.align-items-center div.col-lg-6.offset-lg-1 figure.ab-pic img{width: 100% !important;}
 }
